@@ -11,6 +11,7 @@ public class Main {
     
     public static void main(String[] args){
     
+        try{
         int a = 17;
         System.out.println("a = " + a);
         int b = 42;
@@ -24,6 +25,10 @@ public class Main {
         System.out.println("b = " + b);
         c = getAbsAdd(a, b);
         System.out.println("c = " + c);
+        }
+        catch(IllegalArgumentException e){
+            System.out.println("Caught Exception");
+        }
         
         /*
         * Rule 06. Methods (MET)
