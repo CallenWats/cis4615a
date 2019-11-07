@@ -1,7 +1,7 @@
 import java.util.logging.Logger;
 import java.util.regex.Pattern;
 
-public class Main {
+public class R00_IDS03_J{
 
     /******************************************************************************
      *  Compilation:  javac R00_IDS03_J.java
@@ -14,7 +14,7 @@ public class Main {
     public static void main(String[] args) {
     
     boolean loginSuccessful = false;
-    Logger logger = Logger.getLogger(Main.class.getName());
+    Logger logger = Logger.getLogger(R00_IDS03_J.class.getName());
     String username =   "guest\n" +
                         "May 15, 2011 2:25:52 PM java.util.logging.LogManager$RootLogger log\n" +
                         "SEVERE: User login succeeded for: administrator";
