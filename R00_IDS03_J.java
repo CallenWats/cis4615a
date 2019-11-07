@@ -19,6 +19,15 @@ public class Main {
                         "May 15, 2011 2:25:52 PM java.util.logging.LogManager$RootLogger log\n" +
                         "SEVERE: User login succeeded for: administrator";
     String username2 = "guest";
+        
+        
+    /*     
+    * Rule 00. Input Validation and Data Sanitization (IDS)     
+    * Corrected code per:     
+    * https://wiki.sei.cmu.edu/confluence/display/java/IDS03-J.+Do+not+log+unsanitized+user+input     
+    *     
+    * Rule 00-IDS03-J
+    */
     
     // Invalid username input
     if (loginSuccessful) {
