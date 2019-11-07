@@ -5,8 +5,8 @@ public class R04_STR03_J {
     public static void main(String[] args){
     
         /******************************************************************************
-     *  Compilation:  javac R03_NUM03_J.java
-     *  Execution:    java R03_NUM03_J
+     *  Compilation:  javac R04_STR03_J.java
+     *  Execution:    java R04_STR03_J
      * 
      *  Converts BigInteger x to a string->byte[]->string->BigInteger.
      *  Displays the before and after to prove that both iterations of x are the same
