@@ -9,6 +9,14 @@ public class R13_FIO09_J {
      *  that will. The exception is caught and the values are written out.
      * 
      ******************************************************************************/
+   
+   /*     
+    * Rule 13. Input Output (FIO)
+    * Corrected code per:     
+    * https://wiki.sei.cmu.edu/confluence/display/java/FIO09-J.+Do+not+rely+on+the+write%28%29+method+to+output+integers+outside+the+range+0+to+255    
+    *     
+    * Rule 13-FIO09-J
+    */
     public static void main(String[] args)
                           throws NumberFormatException, IOException {
     // Perform range checking 
